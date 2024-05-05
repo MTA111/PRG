@@ -1,0 +1,12 @@
+{
+  "domain": "PRG",
+  "name": "PRG",
+  "codeowners": ["@hunterjm"],
+  "config_flow": true,
+  "dependencies": ["ffmpeg"],
+  "dhcp": [{ "registered_devices": true }],
+  "documentation": "https://www.home-assistant.io/integrations/PRG",
+  "iot_class": "local_push",
+  "loggers": ["PRG", "wsdiscovery", "zeep"],
+  "requirements": ["PRG-zeep-async==3.1.12", "WSDiscovery==2.0.0"]
+}
